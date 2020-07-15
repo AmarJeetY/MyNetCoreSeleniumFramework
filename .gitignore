@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Zoopla.Selenium.NetCore/v16/TestStore/0
+/Zoopla.Selenium.Framework/bin/Debug/netcoreapp3.1
+/Zoopla.Selenium.Framework/obj/Debug/netcoreapp3.1
+/Zoopla.Selenium.Framework/obj
+/Zoopla.Selenium.Tests/bin/Debug/netcoreapp3.1
+/Zoopla.Selenium.Tests/obj/Debug/netcoreapp3.1
+/Zoopla.Selenium.Tests/obj
+/Zoopla.Selenium.PageObjects/obj
+/.vs/Zoopla.Selenium.NetCore/DesignTimeBuild
+/Zoopla.Selenium.PageObjects/bin/Debug/netcoreapp3.1
+/.vs
+/Zoopla.Selenium.Tests/Features/IsPropertyAlertCreationSuccessful.feature.cs
+/Zoopla.Selenium.Tests/Features/IsPropertySearchSuccessful.feature.cs
+/Zoopla.Selenium.Tests/Features/IsTravelTimeSearchSuccessful.feature.cs

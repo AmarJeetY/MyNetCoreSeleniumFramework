@@ -1,0 +1,22 @@
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
+
+variables:
+    VERSION_NUMBER: ${VERSION_MAJOR}.${VERSION_MINOR}.$CI_PIPELINE_IID
+
+stages:
+  - build
+  - publish
+
+build:
+  stage: build
+  script:
+    - dotnet build -c Release
+           
+publish:
+  stage: publish
+  only:
+    - master
+  script:
+    - dotnet pack ./Zoopla.Selenium.Framework/Zoopla.Selenium.Framework.csproj  -c Release -o $CI_PROJECT_DIR/publish -p:PackageVersion=${VERSION_NUMBER}
+    - dotnet nuget push publish/Zoopla.Selenium.Framework.*.nupkg --source ${NUGET_PUSH_REPOSITORY} --api-key ${NUGET_PUSH_KEY}  
+    

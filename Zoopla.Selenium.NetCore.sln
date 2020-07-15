@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoopla.Selenium.Framework", "Zoopla.Selenium.Framework\Zoopla.Selenium.Framework.csproj", "{12BF8333-7505-4171-92E8-05753F28146B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoopla.Selenium.Tests", "Zoopla.Selenium.Tests\Zoopla.Selenium.Tests.csproj", "{38AF6227-AC47-4B6F-B2A2-978C30E695D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12BF8333-7505-4171-92E8-05753F28146B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BF8333-7505-4171-92E8-05753F28146B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BF8333-7505-4171-92E8-05753F28146B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BF8333-7505-4171-92E8-05753F28146B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38AF6227-AC47-4B6F-B2A2-978C30E695D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AF6227-AC47-4B6F-B2A2-978C30E695D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AF6227-AC47-4B6F-B2A2-978C30E695D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AF6227-AC47-4B6F-B2A2-978C30E695D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {647FF77C-C14B-44C3-A2FF-E95173334585}
+	EndGlobalSection
+EndGlobal

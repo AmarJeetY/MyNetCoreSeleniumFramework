@@ -1,0 +1,5 @@
+testcase|TypeOfSearch|SearchArea|MinPrice|MaxPrice|PropertyType|Bedrooms|Keywords|PriceFrequency|Furniture|DistanceFromLocation|Added|SortBy|SharedAcc|LetAgreed|TravelTime|TransportMethod
+AC01-EmailAlerts|Rent|London|£800 pcm|£1,000 pcm||1+||||||||||
+AC01-PropSearch|Rent|45 Sheep Street, Northampton NN1|||Houses|||||||||||
+AC02-PropSearch|Rent|London|||Houses||Garage|||||||||
+AC01-TravelTime|Rent|SE1 2LH|||||||||||||15 minutes|Driving|
